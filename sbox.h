@@ -44,5 +44,7 @@ typedef struct bx
 bx * add(bx*pt);
 bx * spop(bx * pt,int x, int y);
 void ssp(bx * box, int x, int y);
+void ssq(bx * box, int x, int y,int * x_m,int * y_m);
 
+void del_box(bx*box);
 #endif

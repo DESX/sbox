@@ -4,7 +4,6 @@
 char array[100][100];
 void  traverse(bx * box)
 {
-  
    for(int i  = box->ct_tp + 1;i< box->ct_bm;i++)
    {
       array[box->ct_rt][i] = '|';//bottom right 
