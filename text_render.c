@@ -6,13 +6,13 @@ void  traverse(bx * box)
 {
    for(int i  = box->ct_tp + 1;i< box->ct_bm;i++)
    {
-      array[box->ct_rt][i] = '|';//bottom right 
-      array[box->ct_lt][i] = '|';//bottom right 
+      array[box->ct_rt][i] = '|';
+      array[box->ct_lt][i] = '|';
    }
    for(int i  = box->ct_lt + 1;i< box->ct_rt;i++)
    {
-      array[i][box->ct_bm] = '-';//bottom right 
-      array[i][box->ct_tp] = '-';//bottom right 
+      array[i][box->ct_bm] = '-';
+      array[i][box->ct_tp] = '-';
    }
 
    array[box->ct_rt][box->ct_bm] = '/';//bottom right 

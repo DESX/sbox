@@ -29,7 +29,7 @@ int main(int argc, char** argv)
    //ssp(b00,0,0);
    printf("----text rendering ----\n");
    text_render(b00);
-   printf("----x11 rendering ----\n");
-   xlib_render(b00);
+   //printf("----x11 rendering ----\n");
+   //xlib_render(b00);
    del_box(b00);
 }
